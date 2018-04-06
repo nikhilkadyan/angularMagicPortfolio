@@ -1,0 +1,38 @@
+.about-container{
+  padding:5vh 30vh 10vh 30vh;
+
+  h1{
+    font-size: 9vh;
+    font-weight: 800;
+  }
+  b{
+    font-weight: 100;
+    padding: 1px;   
+  }
+  .kudos{
+    font-size: 30px;
+    padding-top: 10vh;
+    text-align: center;
+  }
+  .bottom-nav{
+    text-align: center;
+    padding-top:18vh;
+    padding-bottom: 3vh;
+    font-size: 10px;
+    animation: bounce 1.4s infinite ease-in-out;
+  }
+}
+@media only screen and (max-width:600px){
+  .about-container{
+    padding: 5vh 4vh;
+    h1{
+      font-size: 7vh;
+    }
+    .kudos{
+      padding-top: 0;
+    }
+    .bottom-nav{
+      padding-top:5.5vh;
+    }
+  }
+}

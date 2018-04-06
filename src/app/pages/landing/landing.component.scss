@@ -1,5 +1,6 @@
+@import url('https://fonts.googleapis.com/css?family=Yeon+Sung');
 .landing-container{
-  font-family: 'Roboto', sans-serif;
+  font-family:  'Yeon Sung', cursive;
   text-align: center;
   padding-top: 18vh;
   
@@ -18,9 +19,9 @@
     }
   }
   .bottom-nav{
-    padding-top:25vh;
+    padding-top:23vh;
     padding-bottom: 3vh;
-    font-size: 10px;
+    font-size: 12px;
     animation: bounce 1.4s infinite ease-in-out;
   }
 }
@@ -52,6 +53,9 @@
     span{
       font-size: 2.4vh;
     }
+  }
+  .bottom-nav{
+    padding-top: 22vh;
   }
   
 }

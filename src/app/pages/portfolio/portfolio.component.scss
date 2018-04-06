@@ -1,0 +1,13 @@
+.portfolio-container{
+  padding: 0vh 30vh 0vh 30vh;
+  h1{
+    font-size: 9vh;
+    font-weight: 800;
+  }
+}
+
+@media only screen and (max-width:600px){
+  .portfolio-container{
+    padding: 5vh 4vh;
+  }
+}

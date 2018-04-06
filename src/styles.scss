@@ -1,7 +1,12 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css?family=Yeon+Sung');
+
 html {
   overflow: scroll;
-  overflow-x: hidden;
+  overflow-x: hidden; 
+}
+body{
+  font-family:  'Yeon Sung', cursive;
 }
 ::-webkit-scrollbar {
   width: 0px;  /* remove scrollbar space */

@@ -1,3 +1,23 @@
-<p>
-  about works!
-</p>
+<div class="about-container">
+  <h1  [ngStyle]="{'color':themeData.colorPrimary}">About</h1>
+  <p [ngStyle]="{'color':themeData.textPrimary}">
+    I'm a <b [ngStyle]="{'background':themeData.colorHighlight}"> Web Designer & Developer</b> with passion for coding and design.
+    I have over 1 year professional experience as a Web Developer developing desktop and web applications.
+    <br><br>
+    Lately I'm focusing on <b [ngStyle]="{'background':themeData.colorHighlight}">Front-end web development</b> and learning about the latest frameworks like Vue and React.
+    When I'm not coding, I try to do some design work and sports. 
+    <br><br>
+    I Made this Website without using any  <b [ngStyle]="{'background':themeData.colorHighlight}" >UI Library/Framework </b>
+    (expect Angular :-P) and was really fun all the way.
+    <br>
+  </p>
+    <div class="kudos"  [ngStyle]="{ 'color': themeData.colorPrimary }">
+      Kudos for Me!
+      <br>
+      \ (•◡•) /
+    </div>
+    <div class="bottom-nav" [ngStyle]="{ 'color': themeData.colorPrimary }">
+        <div class="scroll-text">See My Work!</div>
+        <button class="fas fa-chevron-down fa-2x" href="#"></button>
+    </div>
+</div>

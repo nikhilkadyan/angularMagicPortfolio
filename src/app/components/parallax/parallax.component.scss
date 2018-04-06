@@ -114,3 +114,9 @@ $shadows-big: multiple-box-shadow(100);
     }
   }
 }
+
+@media only screen and (max-width:680px){
+  .parallax {
+    height: 120vw;
+  }
+}
