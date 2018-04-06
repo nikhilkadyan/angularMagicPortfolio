@@ -1,0 +1,10 @@
+<nav [ngStyle]="{'color':themeData.colorPrimary}">
+  <span (click)="newTheme()" class="themeChange">
+    <i class="fas fa-edit"></i>
+  </span>
+  <div class="menu"  *ngFor="let item of items">
+    <a  href="{{item.link}}"
+        class="menu_item"
+        [ngStyle]="{'color':themeData.colorPrimary}">{{item.name}}</a>
+  </div>
+</nav>

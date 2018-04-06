@@ -1,0 +1,39 @@
+nav{
+  width:100%;
+  position: fixed;
+  .themeChange{
+    float:left;
+    font-size: 5vh;
+    margin-top: -3px;
+    animation: 0.8s bounce-xy infinite;
+    &:hover{
+      cursor: pointer;
+    }
+  }
+  .menu_item{
+    float: right;
+    text-decoration: none;
+    margin: 0px 20px 5px 20px;
+    padding: 4px 2px 7px 2px;
+    font-size: 22px;
+    font-family: 'Roboto', sans-serif;
+    &:hover{
+      border-bottom: 1px solid;
+    }
+  }
+  @keyframes bounce-xy {
+    0%,
+    20%,
+    50%,
+    80%,
+    100% {
+      transform: translateY(0) translateX(0);
+    }
+    40% {
+      transform: translateY(2px) translateX(2px);
+    }
+    60% {
+      transform: translateY(1px) translateX(1px);
+    }
+  }
+}

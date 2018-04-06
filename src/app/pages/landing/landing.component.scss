@@ -1,0 +1,57 @@
+.landing-container{
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  padding-top: 18vh;
+  
+  h1{
+    font-size: 11vh;
+  }
+  span{
+    font-size: 3.4vh;
+  }
+  .icons{
+    padding-top:5vh;  
+    font-size: 8vh;
+    a{
+      text-decoration: none;
+      padding: 0 5px;
+    }
+  }
+  .bottom-nav{
+    padding-top:25vh;
+    padding-bottom: 3vh;
+    font-size: 10px;
+    animation: bounce 1.4s infinite ease-in-out;
+  }
+}
+
+@keyframes bounce {
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-30px);
+  }
+  60% {
+    transform: translateY(-15px);
+  }
+}
+
+
+@media only screen and (max-width:600px) {
+  .landing-container{
+    padding: 30vh 5px 0 5px;
+    font-size: 18px;
+    h1{
+      font-size: 7vh;
+    }
+    span{
+      font-size: 2.4vh;
+    }
+  }
+  
+}
