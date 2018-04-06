@@ -1,13 +1,44 @@
 .portfolio-container{
-  padding: 0vh 30vh 0vh 30vh;
+  padding: 0vh 30vh 33vh 30vh;
+  text-align: center;
   h1{
     font-size: 9vh;
     font-weight: 800;
   }
+  .portfolio-item-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    overflow: hidden;
+
+    .portfolio-item{
+      text-align: center;
+      width: 32%;
+      margin: 3px;
+      box-sizing: border-box;
+      padding: 20px;
+      border-radius: 3px;
+
+      h2{
+        margin-top: -1vh;  
+      }
+      a{
+        text-decoration: none;
+        border: 1px solid;
+        border-radius: 5px;
+        padding: 5px 15px;
+        font-size: 18px;
+      }
+    }
+  }
+
 }
 
 @media only screen and (max-width:600px){
   .portfolio-container{
-    padding: 5vh 4vh;
+    padding: 0 2vh 2vh 2vh;
+  }
+  .portfolio-item{
+    min-width: 100% !important;
   }
 }

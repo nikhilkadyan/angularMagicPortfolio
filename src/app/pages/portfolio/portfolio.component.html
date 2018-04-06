@@ -1,3 +1,26 @@
 <div class="portfolio-container">
   <h1 [ngStyle]="{'color':themeData.colorPrimary}">Portfolio</h1>
+  <div class="portfolio-item-wrapper">
+    
+    <div class="portfolio-item"[ngStyle]="{'background':themeData.colorPrimary, 'color': themeData.textAlternate}">
+      <h2>My Portfolio</h2>
+      <p>The Current Website You Are Viewing.</p>
+      <a href="https://www.nikhilkadyan.com"  target="_blank"
+        [ngStyle]="{'background':themeData.textAlternate, 'color': themeData.colorPrimary, 'border-color':themeData.textAlternate }">View</a>
+    </div>
+
+    <div class="portfolio-item"  [ngStyle]="{'background':themeData.colorPrimary, 'color': themeData.textAlternate}">
+      <h2>Textile Designs</h2>
+      <p>A business portfolio webapp made with several plugins.</p>
+      <a href="https://textiledesigns.de"   target="_blank"
+        [ngStyle]="{'background':themeData.textAlternate, 'color': themeData.colorPrimary, 'border-color':themeData.textAlternate }">View</a>
+    </div>
+
+    <div class="portfolio-item"  [ngStyle]="{'background':themeData.colorPrimary, 'color': themeData.textAlternate}">
+      <h2>Adarsh Textiles</h2>
+      <p>A Simple Website made with Wordpress.</p>
+      <a href="http://adarshtextiles.com"   target="_blank"
+        [ngStyle]="{'background':themeData.textAlternate, 'color': themeData.colorPrimary, 'border-color':themeData.textAlternate }">View</a>
+    </div>
+  </div>
 </div>
